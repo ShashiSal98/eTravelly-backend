@@ -27,6 +27,7 @@ Make sure you have installed:
    ```bash
    git clone https://github.com/ShashiSal98/eTravelly-backend.git
    cd eTravelly-backend
+   ```
 
 2. Configure your database settings in src/main/resources/application.properties or application.yml.
 
@@ -36,6 +37,7 @@ Make sure you have installed:
    ./mvnw spring-boot:run 
    #or
    ./gradlew bootRun
+   ```
    
 4. The backend server will start at http://localhost:8080
 
