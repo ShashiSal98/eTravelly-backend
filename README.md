@@ -36,24 +36,26 @@ Hotel booking backend system using Java Spring Boot – APIs
 
 3. Build and run the application:
 
-./mvnw spring-boot:run
-# or
-./gradlew bootRun
-
+   ```bash
+   ./mvnw spring-boot:run 
+   #or
+   ./gradlew bootRun
+   
 4. The backend server will start at http://localhost:8080
 
 
-API Endpoints
+## API Endpoints
 
 /hotels - Manage hotels (GET, POST, PUT, DELETE)
+
 /contracts - Manage contracts (GET, POST, DELETE)
+
 /room-types - Manage room types (GET, POST, DELETE)
+
 /search - Search available rooms (POST)
 
-Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License.
 
 Created by Shashi Salwathura
